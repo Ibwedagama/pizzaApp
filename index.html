@@ -1,0 +1,140 @@
+<!-- Code by : Ida Bagus Wedagama Wisnu Wardana -->
+<!-- wardana.wedagama@gmail.com -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Pizza</title>
+		<link rel="stylesheet" href="style.css" />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="container">
+			<section class="header">
+				<h1>Pizza</h1>
+			</section>
+
+			<section class="menu">
+				<div class="card">
+					<div class="card-image">
+						<img src="assets/img/pizza1.jpg" alt="Pizza 1" width="100%" height="auto" />
+					</div>
+					<div class="card-body">
+						<h2>Pizza One</h2>
+						<h3>$8</h3>
+					</div>
+					<div class="card-footer">
+						<input type="radio" id="pizza1" value="8" name="pizza-button" />
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-image">
+						<img src="assets/img/pizza2.jpg" alt="Pizza 2" width="100%" height="auto" />
+					</div>
+					<div class="card-body">
+						<h2>Pizza Two</h2>
+						<h3>$10</h3>
+					</div>
+					<div class="card-footer">
+						<input type="radio" id="pizza2" value="10" name="pizza-button" />
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-image">
+						<img src="assets/img/pizza3.jpg" alt="Pizza 1" width="100%" height="auto" />
+					</div>
+					<div class="card-body">
+						<h2>Pizza Three</h2>
+						<h3>$12</h3>
+					</div>
+					<div class="card-footer">
+						<input type="radio" id="pizza3" value="12" name="pizza-button" />
+					</div>
+				</div>
+			</section>
+
+			<section class="size">
+				<h1>Size</h1>
+				<div class="size-selector">
+					<div class="input-group">
+						<input type="radio" id="small" value="-1" name="size-button" />
+						<label for="small">Small</label>
+					</div>
+					<div class="input-group">
+						<input type="radio" id="medium" value="0" name="size-button" checked />
+						<label for="medium">Medium</label>
+					</div>
+					<div class="input-group">
+						<input type="radio" id="large" value="2" name="size-button" />
+						<label for="large">Large</label>
+					</div>
+				</div>
+			</section>
+
+			<section class="toppings">
+				<h1>Toppings</h1>
+				<div class="topping-selector">
+					<ul>
+						<li>
+							<input type="checkbox" id="avocado" value="1" />
+							<label for="avocado">avocado</label>
+						</li>
+						<li>
+							<input type="checkbox" id="lobster" value="2" />
+							<label for="lobster">lobster</label>
+						</li>
+						<li>
+							<input type="checkbox" id="bacon" value="3" />
+							<label for="bacon">bacon</label>
+						</li>
+						<li>
+							<input type="checkbox" id="brocolli" value="1" />
+							<label for="brocolli">brocolli</label>
+						</li>
+						<li>
+							<input type="checkbox" id="oyster" value="2" />
+							<label for="oyster">oyster</label>
+						</li>
+						<li>
+							<input type="checkbox" id="duck" value="3" />
+							<label for="duck">duck</label>
+						</li>
+						<li>
+							<input type="checkbox" id="onions" value="1" />
+							<label for="onions">onions</label>
+						</li>
+						<li>
+							<input type="checkbox" id="salmon" value="2" />
+							<label for="salmon">salmon</label>
+						</li>
+						<li>
+							<input type="checkbox" id="ham" value="3" />
+							<label for="ham">ham</label>
+						</li>
+						<li>
+							<input type="checkbox" id="zucchini" value="1" />
+							<label for="zucchini">zucchini</label>
+						</li>
+						<li>
+							<input type="checkbox" id="tuna" value="2" />
+							<label for="tuna">tuna</label>
+						</li>
+						<li>
+							<input type="checkbox" id="sausage" value="3" />
+							<label for="sausage">sausage</label>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="price">
+				<h1>Price</h1>
+				<h2 id="total-price">$ 0</h2>
+			</section>
+		</div>
+
+		<script src="main.js"></script>
+	</body>
+</html>
